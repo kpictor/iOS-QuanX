@@ -1,3 +1,72 @@
+# > Apple
+# >> TestFlight
+DOMAIN,testflight.apple.com,PROXY
+# >> Apple URL Shortener
+DOMAIN-SUFFIX,appsto.re,PROXY
+# >> iBooks Store download
+DOMAIN,books.itunes.apple.com,PROXY
+# >> iTunes Store Moveis Trailers
+DOMAIN,hls.itunes.apple.com,PROXY
+# >> Spotlight
+DOMAIN,api-glb-sea.smoot.apple.com,PROXY
+# >> Dictionary
+DOMAIN,lookup-api.apple.com,PROXY
+# >> Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com,PROXY
+USER-AGENT,AppleNews*,PROXY
+USER-AGENT,com.apple.news*,PROXY
+DOMAIN-SUFFIX,apple.news,PROXY
+DOMAIN,news-client.apple.com,PROXY
+DOMAIN,news-edge.apple.com,PROXY
+DOMAIN,news-events.apple.com,PROXY
+DOMAIN,apple.comscoreresearch.com,PROXY
+# > Google
+DOMAIN-SUFFIX,abc.xyz,PROXY
+DOMAIN-SUFFIX,android.com,PROXY
+DOMAIN-SUFFIX,androidify.com,PROXY
+DOMAIN-SUFFIX,dialogflow.com,PROXY
+DOMAIN-SUFFIX,autodraw.com,PROXY
+DOMAIN-SUFFIX,capitalg.com,PROXY
+DOMAIN-SUFFIX,certificate-transparency.org,PROXY
+DOMAIN-SUFFIX,chrome.com,PROXY
+DOMAIN-SUFFIX,chromeexperiments.com,PROXY
+DOMAIN-SUFFIX,chromestatus.com,PROXY
+DOMAIN-SUFFIX,chromium.org,PROXY
+DOMAIN-SUFFIX,creativelab5.com,PROXY
+DOMAIN-SUFFIX,debug.com,PROXY
+DOMAIN-SUFFIX,deepmind.com,PROXY
+DOMAIN-SUFFIX,firebaseio.com,PROXY
+DOMAIN-SUFFIX,getmdl.io,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
+DOMAIN-SUFFIX,gmail.com,PROXY
+DOMAIN-SUFFIX,gmodules.com,PROXY
+DOMAIN-SUFFIX,godoc.org,PROXY
+DOMAIN-SUFFIX,golang.org,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,gv.com,PROXY
+DOMAIN-SUFFIX,gwtproject.org,PROXY
+DOMAIN-SUFFIX,itasoftware.com,PROXY
+DOMAIN-SUFFIX,madewithcode.com,PROXY
+DOMAIN-SUFFIX,material.io,PROXY
+DOMAIN-SUFFIX,polymer-project.org,PROXY
+DOMAIN-SUFFIX,admin.recaptcha.net,PROXY
+DOMAIN-SUFFIX,recaptcha.net,PROXY
+DOMAIN-SUFFIX,shattered.io,PROXY
+DOMAIN-SUFFIX,synergyse.com,PROXY
+DOMAIN-SUFFIX,tensorflow.org,PROXY
+DOMAIN-SUFFIX,tfhub.dev,PROXY
+DOMAIN-SUFFIX,tiltbrush.com,PROXY
+DOMAIN-SUFFIX,waveprotocol.org,PROXY
+DOMAIN-SUFFIX,waymo.com,PROXY
+DOMAIN-SUFFIX,webmproject.org,PROXY
+DOMAIN-SUFFIX,webrtc.org,PROXY
+DOMAIN-SUFFIX,whatbrowser.org,PROXY
+DOMAIN-SUFFIX,widevine.com,PROXY
+DOMAIN-SUFFIX,x.company,PROXY
+DOMAIN-SUFFIX,youtu.be,PROXY
+DOMAIN-SUFFIX,yt.be,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+
 # (DNS Cache Pollution Protection)
 # > Google
 DOMAIN-SUFFIX,appspot.com,PROXY
@@ -10,8 +79,18 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
 DOMAIN-KEYWORD,blogspot,PROXY
 # > Microsoft
+USER-AGENT,OneDrive*,OneDrive
+USER-AGENT,OneDriveiOSApp*,OneDrive
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
 DOMAIN-SUFFIX,xboxlive.com,PROXY
+DOMAIN-SUFFIX,1drv.com,PROXY
+DOMAIN-SUFFIX,1drv.ms,PROXY
+DOMAIN-SUFFIX,blob.core.windows.net,PROXY
+DOMAIN-SUFFIX,livefilestore.com,PROXY
+DOMAIN-SUFFIX,onedrive.com,PROXY
+DOMAIN-SUFFIX,storage.live.com,PROXY
+DOMAIN-SUFFIX,storage.msn.com,PROXY
+DOMAIN,oneclient.sfx.ms,PROXY
 # > Facebook
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 DOMAIN-SUFFIX,fb.com,PROXY
@@ -429,85 +508,6 @@ DOMAIN-SUFFIX,xfinity.com,PROXY
 DOMAIN-SUFFIX,zattoo.com,PROXY
 USER-AGENT,Roam*,PROXY
 
-# (The Most Popular Sites)
-# > Apple
-# >> TestFlight
-DOMAIN,testflight.apple.com,PROXY
-# >> Apple URL Shortener
-DOMAIN-SUFFIX,appsto.re,PROXY
-# >> iBooks Store download
-DOMAIN,books.itunes.apple.com,PROXY
-# >> iTunes Store Moveis Trailers
-DOMAIN,hls.itunes.apple.com,PROXY
-# >> Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com,PROXY
-# >> Dictionary
-DOMAIN,lookup-api.apple.com,PROXY
-# >> Apple News and Apple Map TOMTOM Version
-DOMAIN,gspe1-ssl.ls.apple.com,PROXY
-USER-AGENT,AppleNews*,PROXY
-USER-AGENT,com.apple.news*,PROXY
-DOMAIN-SUFFIX,apple.news,PROXY
-DOMAIN,news-client.apple.com,PROXY
-DOMAIN,news-edge.apple.com,PROXY
-DOMAIN,news-events.apple.com,PROXY
-DOMAIN,apple.comscoreresearch.com,PROXY
-# > Google
-DOMAIN-SUFFIX,abc.xyz,PROXY
-DOMAIN-SUFFIX,android.com,PROXY
-DOMAIN-SUFFIX,androidify.com,PROXY
-DOMAIN-SUFFIX,dialogflow.com,PROXY
-DOMAIN-SUFFIX,autodraw.com,PROXY
-DOMAIN-SUFFIX,capitalg.com,PROXY
-DOMAIN-SUFFIX,certificate-transparency.org,PROXY
-DOMAIN-SUFFIX,chrome.com,PROXY
-DOMAIN-SUFFIX,chromeexperiments.com,PROXY
-DOMAIN-SUFFIX,chromestatus.com,PROXY
-DOMAIN-SUFFIX,chromium.org,PROXY
-DOMAIN-SUFFIX,creativelab5.com,PROXY
-DOMAIN-SUFFIX,debug.com,PROXY
-DOMAIN-SUFFIX,deepmind.com,PROXY
-DOMAIN-SUFFIX,firebaseio.com,PROXY
-DOMAIN-SUFFIX,getmdl.io,PROXY
-DOMAIN-SUFFIX,ggpht.com,PROXY
-DOMAIN-SUFFIX,gmail.com,PROXY
-DOMAIN-SUFFIX,gmodules.com,PROXY
-DOMAIN-SUFFIX,godoc.org,PROXY
-DOMAIN-SUFFIX,golang.org,PROXY
-DOMAIN-SUFFIX,gstatic.com,PROXY
-DOMAIN-SUFFIX,gv.com,PROXY
-DOMAIN-SUFFIX,gwtproject.org,PROXY
-DOMAIN-SUFFIX,itasoftware.com,PROXY
-DOMAIN-SUFFIX,madewithcode.com,PROXY
-DOMAIN-SUFFIX,material.io,PROXY
-DOMAIN-SUFFIX,polymer-project.org,PROXY
-DOMAIN-SUFFIX,admin.recaptcha.net,PROXY
-DOMAIN-SUFFIX,recaptcha.net,PROXY
-DOMAIN-SUFFIX,shattered.io,PROXY
-DOMAIN-SUFFIX,synergyse.com,PROXY
-DOMAIN-SUFFIX,tensorflow.org,PROXY
-DOMAIN-SUFFIX,tfhub.dev,PROXY
-DOMAIN-SUFFIX,tiltbrush.com,PROXY
-DOMAIN-SUFFIX,waveprotocol.org,PROXY
-DOMAIN-SUFFIX,waymo.com,PROXY
-DOMAIN-SUFFIX,webmproject.org,PROXY
-DOMAIN-SUFFIX,webrtc.org,PROXY
-DOMAIN-SUFFIX,whatbrowser.org,PROXY
-DOMAIN-SUFFIX,widevine.com,PROXY
-DOMAIN-SUFFIX,x.company,PROXY
-DOMAIN-SUFFIX,youtu.be,PROXY
-DOMAIN-SUFFIX,yt.be,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
-# > Microsoft
-# >> Microsoft OneDrive
-DOMAIN-SUFFIX,1drv.com,PROXY
-DOMAIN-SUFFIX,1drv.ms,PROXY
-DOMAIN-SUFFIX,blob.core.windows.net,PROXY
-DOMAIN-SUFFIX,livefilestore.com,PROXY
-DOMAIN-SUFFIX,onedrive.com,PROXY
-DOMAIN-SUFFIX,storage.live.com,PROXY
-DOMAIN-SUFFIX,storage.msn.com,PROXY
-DOMAIN,oneclient.sfx.ms,PROXY
 # > Other
 DOMAIN-SUFFIX,0rz.tw,PROXY
 DOMAIN-SUFFIX,4bluestones.biz,PROXY
