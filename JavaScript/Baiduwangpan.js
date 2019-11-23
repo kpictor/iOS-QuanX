@@ -17,7 +17,7 @@ obj = {
     "buy_time": 0,
     "product_id": "1",
     "auto_upgrade_to_svip": 0,
-    "end_time": 1672360448,
+    "end_time": 1953216000,
     "cluster": "vip",
     "detail_cluster": "svip",
     "status": 0
